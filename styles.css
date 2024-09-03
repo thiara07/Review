@@ -1,0 +1,32 @@
+.item1 { grid-area: Header; }
+.item2 { grid-area: Side; }
+.item3 { grid-area: Right1; }
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'Header Header Header'
+    'Side Right1 Right1'
+    ;
+
+    width: 200px;
+    background-color: cadetblue;
+}
+
+.item1 {
+    text-align: center;
+    border: 3px solid;
+}
+.item2 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 3px solid;
+}
+.item3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+}
