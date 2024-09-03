@@ -10,13 +10,26 @@
     'Side Right1 Right1'
     ;
 
-    width: 200px;
+    width: 500px;
+    height: 300px;
     background-color: cadetblue;
 }
 
+#headerp{
+    margin-top: 15%;
+    font-size: 200%;
+    color: rgb(10, 71, 33);
+    background-color: rgba(122, 219, 163, 0.493);
+    width: 50%;
+    margin-left: 25%;
+}
 .item1 {
     text-align: center;
     border: 3px solid;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGJkOHd2dngzZDV4bmoyaWplamhzNzlrcjQ4M3RpOWs1OHVzMXQ0MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2wicMBKqNZlrW/giphy.webp);
 }
 .item2 {
     text-align: center;
